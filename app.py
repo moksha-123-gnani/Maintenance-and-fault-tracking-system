@@ -8,7 +8,7 @@ app.secret_key = "secure_key_123"
 def get_db_connection():
     return mysql.connector.connect(
         host="localhost",
-        user="root",   
+        user="root",
         password="123456",
         database="maintenance_db"
     )
